@@ -1,5 +1,5 @@
 {
-  "name": "svgo",
+  "name": "pw-svgo",
   "version": "1.3.2",
   "description": "Nodejs-based tool for optimizing SVG vector graphics files",
   "keywords": [
@@ -34,13 +34,9 @@
     "url": "git://github.com/svg/svgo.git"
   },
   "main": "./lib/svgo.js",
-  "bin": {
-    "svgo": "./bin/svgo"
-  },
+  "bin": {},
   "directories": {
-    "bin": "./bin",
-    "lib": "./lib",
-    "example": "./examples"
+    "lib": "./lib"
   },
   "scripts": {
     "test": "set NODE_ENV=test && mocha",
@@ -49,13 +45,11 @@
   },
   "dependencies": {
     "chalk": "^2.4.1",
-    "coa": "^2.0.2",
     "css-select": "^2.0.0",
     "css-select-base-adapter": "^0.1.1",
     "css-tree": "1.0.0-alpha.37",
     "csso": "^4.0.2",
     "js-yaml": "^3.13.1",
-    "mkdirp": "~0.5.1",
     "object.values": "^1.1.0",
     "sax": "~1.2.4",
     "stable": "^0.1.8",
